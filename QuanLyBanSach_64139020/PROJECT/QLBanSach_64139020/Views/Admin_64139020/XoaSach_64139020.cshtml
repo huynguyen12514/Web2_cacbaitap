@@ -1,0 +1,91 @@
+﻿@model QLBanSach_64139020.Models.SACH
+
+@{
+    ViewBag.Title = "XoaSach";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>XÓA SÁCH</h3>
+
+<h3 style="color:red">Không thể khôi phục lại sau khi xóa! Xác nhận xóa?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên sách:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tensach)
+        </dd>
+
+        <dt>
+            Giá bán:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Giaban)
+        </dd>
+
+        <dt>
+            Mô tả:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+
+        <dt>
+            Ảnh bìa:
+        </dt>
+
+        <dd>
+            <img src="@Url.Content("~/images/anhsp/" +
+            Model.Anhbia)" width="50" />
+        </dd>
+
+        <dt>
+            Ngày cập nhật:
+        </dt>
+
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.Ngaycapnhat)
+        </dd>
+
+        <dt>
+            Số lượng tồn:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+            Loại sách:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LOAISACH.TenLoai)
+        </dd>
+
+        <dt>
+            Nhà xuất bản:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NHAXUATBAN.TenNXB)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Sửa", "Suasach_64139020", new { id = Model.Masach }) |
+            @Html.ActionLink("Quay lại", "Sach_64139020")
+        </div>
+    }
+</div>

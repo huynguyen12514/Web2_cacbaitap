@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\views\\taisans_64130859\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\views\\taisans_64130859\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\views\\taisans_64130859\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\views\\taisans_64130859\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\models\\modelqtls_64130859.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\models\\modelqtls_64130859.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\content\\styleadmin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\content\\styleadmin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\views\\taisans_64130859\\gioithieu_64130859.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\views\\taisans_64130859\\gioithieu_64130859.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\views\\taisans_64130859\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\views\\taisans_64130859\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\controllers\\taisans_64130859controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\controllers\\taisans_64130859controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\thigk2025_64130859\\views\\taisans_64130859\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AF9D2CD-7662-4937-A6E1-50386A12ED2E}|ThiGK2025_64130859\\ThiGK2025_64130859.csproj|solutionrelative:thigk2025_64130859\\views\\taisans_64130859\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\Delete.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\Delete.cshtml",
+              "RelativeToolTip": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T02:49:12.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimKiem.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\TimKiem.cshtml",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\TimKiem.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\TimKiem.cshtml",
+              "RelativeToolTip": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\TimKiem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T01:45:38.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GioiThieu_64130859.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\GioiThieu_64130859.cshtml",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\GioiThieu_64130859.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\GioiThieu_64130859.cshtml",
+              "RelativeToolTip": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\GioiThieu_64130859.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T01:05:27.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StyleAdmin.css",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Content\\StyleAdmin.css",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Content\\StyleAdmin.css",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Content\\StyleAdmin.css",
+              "RelativeToolTip": "ThiGK2025_64130859\\Content\\StyleAdmin.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T01:02:29.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "ThiGK2025_64130859\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T00:59:12.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelQTLS_64130859.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Models\\ModelQTLS_64130859.edmx",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Models\\ModelQTLS_64130859.edmx",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Models\\ModelQTLS_64130859.edmx [Diagram1]",
+              "RelativeToolTip": "ThiGK2025_64130859\\Models\\ModelQTLS_64130859.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-03T00:56:38.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\Create.cshtml",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\Create.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\Create.cshtml",
+              "RelativeToolTip": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T02:56:13.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaiSans_64130859Controller.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Controllers\\TaiSans_64130859Controller.cs",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Controllers\\TaiSans_64130859Controller.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Controllers\\TaiSans_64130859Controller.cs",
+              "RelativeToolTip": "ThiGK2025_64130859\\Controllers\\TaiSans_64130859Controller.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T00:58:24.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ThiGK2025_64130859\\ThiGK2025_64130859\\Views\\TaiSans_64130859\\Index.cshtml",
+              "RelativeToolTip": "ThiGK2025_64130859\\Views\\TaiSans_64130859\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T01:11:36.619Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

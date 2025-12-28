@@ -1,0 +1,94 @@
+﻿@model IEnumerable<BaiTap6_64130859.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    string gtinh = "";
+    int i = 0;
+}
+
+<p>
+    @Html.ActionLink("Thêm mới", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Số thứ tự
+        </th>
+        <th>
+            Mã nhân viên
+        </th>
+        <th>
+            Họ nhân viên
+        </th>
+        <th>
+            Tên nhân viên
+        </th>
+        <th>
+            Giới tính
+        </th>
+        <th>
+            Ngày sinh
+        </th>
+        <th>
+            Lương
+        </th>
+        <th>
+            Ảnh nhân viên
+        </th>
+        <th>
+            Địa chì
+        </th>
+        <th>
+            Phòng ban
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @{i++;}
+            @i
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaNV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoNV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenNV)
+        </td>
+        <td>
+           @{ if (item.GioiTinh == true)
+               { gtinh = "Nam"; }
+               else
+               { gtinh = "Nữ"; } 
+              }
+            @gtinh
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgaySinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Luong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnhNV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiaChi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhongBan.TenPB)
+        </td>
+        <td>
+            @Html.ActionLink("Chỉnh sửa", "Edit", new { id = item.MaNV }) |
+            @Html.ActionLink("Chi tiết", "Details", new { id = item.MaNV }) |
+            @Html.ActionLink("Xoá", "Delete", new { id = item.MaNV })
+        </td>
+    </tr>
+}
+
+</table>

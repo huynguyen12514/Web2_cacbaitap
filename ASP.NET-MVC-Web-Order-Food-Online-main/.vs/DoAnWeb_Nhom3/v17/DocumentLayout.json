@@ -1,0 +1,550 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|d:\\visual studio\\visualstudio2022\\asp.net-mvc-web-order-food-online-main\\doanweb_nhom3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\views\\loaisanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\views\\loaisanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\controllers\\loaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\controllers\\loaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\chitietdh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\chitietdh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\lichsumuahang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\lichsumuahang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\lichsumuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\lichsumuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\controllers\\lichsumuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\controllers\\lichsumuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\danhmuc\\danhmucpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\danhmuc\\danhmucpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\home\\slidepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\home\\slidepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\sanphams\\doan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\sanphams\\doan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\doanweb_nhom3\\views\\sanphams\\douong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F463ED0D-5026-4822-9DE3-AC0965E99D57}|DoAnWeb_Nhom3\\DoAnWeb_Nhom3.csproj|solutionrelative:doanweb_nhom3\\views\\sanphams\\douong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SANPHAM.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\SANPHAM.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\SANPHAM.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\SANPHAM.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\SANPHAM.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:38:05.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LOAISANPHAM.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\LOAISANPHAM.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\LOAISANPHAM.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\LOAISANPHAM.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\LOAISANPHAM.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:33:42.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NGUOIDUNGsController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\NGUOIDUNGsController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\NGUOIDUNGsController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\NGUOIDUNGsController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\NGUOIDUNGsController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAADwv5YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T08:48:56.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Controllers\\GioHangController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Controllers\\GioHangController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAiwNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:03:52.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T02:05:26.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Web.config",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Web.config",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Web.config",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Web.config",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwDsAAAAjAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-25T02:04:19.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T02:13:56.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Views\\LOAISANPHAMs\\Create.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\Views\\LOAISANPHAMs\\Create.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Views\\LOAISANPHAMs\\Create.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\Views\\LOAISANPHAMs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T01:54:22.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T02:55:51.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LOAISANPHAMsController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\LOAISANPHAMsController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\LOAISANPHAMsController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\LOAISANPHAMsController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\LOAISANPHAMsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:03:53.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PHANQUYEN.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\PHANQUYEN.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\PHANQUYEN.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\PHANQUYEN.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\PHANQUYEN.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:37:54.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NGUOIDUNG.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\NGUOIDUNG.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\NGUOIDUNG.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\NGUOIDUNG.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\NGUOIDUNG.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:37:29.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DONDATHANG.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\DONDATHANG.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\DONDATHANG.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\DONDATHANG.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\DONDATHANG.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA8wCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:32:12.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CHITIETDH.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\CHITIETDH.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\CHITIETDH.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\CHITIETDH.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\CHITIETDH.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:32:02.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SANPHAMsController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\SANPHAMsController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\SANPHAMsController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\SANPHAMsController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\SANPHAMsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:23:41.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminAreaRegistration.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T08:48:02.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:24:40.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T09:02:29.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAwwN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T02:36:27.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAqwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:39:03.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SANPHAMsController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\SANPHAMsController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Controllers\\SANPHAMsController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\SANPHAMsController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Controllers\\SANPHAMsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:31:11.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LichSuMuaHangController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\LichSuMuaHangController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Controllers\\LichSuMuaHangController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\LichSuMuaHangController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Controllers\\LichSuMuaHangController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:26:07.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\GioHang.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\GioHang.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\GioHang.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\GioHang.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA6wCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:03:53.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LichSuMuaHang.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\LichSuMuaHang.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Models\\LichSuMuaHang.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Models\\LichSuMuaHang.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Models\\LichSuMuaHang.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:03:53.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\LichSuMuaHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\LichSuMuaHang\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\LichSuMuaHang\\Index.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\LichSuMuaHang\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T06:40:48.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DanhMucPartial.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\DanhMuc\\DanhMucPartial.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\DanhMuc\\DanhMucPartial.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\DanhMuc\\DanhMucPartial.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\DanhMuc\\DanhMucPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T07:18:47.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DanhMucController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\DanhMucController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Controllers\\DanhMucController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\DanhMucController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Controllers\\DanhMucController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:16:52.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\GioHang\\GioHang.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\GioHang\\GioHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T02:03:53.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:45:55.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dangnhap.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\User\\Dangnhap.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\User\\Dangnhap.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\User\\Dangnhap.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\User\\Dangnhap.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T02:08:10.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SlidePartial.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Home\\SlidePartial.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\Home\\SlidePartial.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\Home\\SlidePartial.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\Home\\SlidePartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T08:40:49.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "doAn.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\SANPHAMs\\doAn.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\SANPHAMs\\doAn.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\SANPHAMs\\doAn.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\SANPHAMs\\doAn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T02:35:06.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "doUong.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\SANPHAMs\\doUong.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb_Nhom3\\Views\\SANPHAMs\\doUong.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\ASP.NET-MVC-Web-Order-Food-Online-main\\DoAnWeb_Nhom3\\Views\\SANPHAMs\\doUong.cshtml",
+              "RelativeToolTip": "DoAnWeb_Nhom3\\Views\\SANPHAMs\\doUong.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T02:06:41.705Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

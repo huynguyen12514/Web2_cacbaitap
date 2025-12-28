@@ -1,0 +1,86 @@
+﻿@model PagedList.IPagedList<QLBanSach_64139020.Models.SACH>
+@using QLBanSach_64139020.Models
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "Quản lý sách";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@section styles {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .book-card {
+            transition: transform 0.2s ease-in-out;
+        }
+
+            .book-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .book-image {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .truncate {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+}
+
+<div class="container my-4">
+    <h2 class="mb-4">@ViewBag.Title</h2>
+
+    <div class="d-flex justify-content mb-3">
+        <a class=" add-btn " href="@Url.Action("ThemmoiSach_64139020", "Admin_64139020")">
+            <i class="bi bi-plus-circle"></i> Thêm sách mới
+        </a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow book-card">
+                    <img src="@Url.Content("~/images/anhsp/" + item.Anhbia)" class="card-img-top book-image" alt="Ảnh bìa sách">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@item.Tensach</h5>
+                        <p class="card-text text-muted mb-1">
+                            <strong>Giá:</strong> @String.Format("{0:#,##0}đ", item.Giaban)
+                        </p>
+                        <p class="card-text truncate">@item.Mota</p>
+                        <div class="mt-auto">
+                            <div class="d-grid gap-1">
+                                <a class="btn btn-sm btn-outline-primary" href="@Url.Action("Chitietsach_64139020", new { id = item.Masach })">
+                                    <i class="bi bi-eye"></i> Xem
+                                </a>
+                                <a class="btn btn-sm btn-outline-warning" href="@Url.Action("Suasach_64139020", new { id = item.Masach })">
+                                    <i class="bi bi-pencil-square"></i> Sửa
+                                </a>
+                                <a class="btn btn-sm btn-outline-danger" href="@Url.Action("Xoasach_64139020", new { id = item.Masach })">
+                                    <i class="bi bi-trash"></i> Xóa
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="Trang text-center mt-4">
+        <nav class="d-flex justify-content-center">
+            @Html.PagedListPager(Model, page => Url.Action("Sach_64139020", new { page }))
+        </nav>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+}

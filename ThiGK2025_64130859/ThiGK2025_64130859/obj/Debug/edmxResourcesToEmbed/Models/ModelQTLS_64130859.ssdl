@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThiGK2025_64130859Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="LoaiTaiSan">
+    <Key>
+      <PropertyRef Name="MaLTS" />
+    </Key>
+    <Property Name="MaLTS" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="TenLTS" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaiSan">
+    <Key>
+      <PropertyRef Name="MaTS" />
+    </Key>
+    <Property Name="MaTS" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="TenTS" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DVT" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="XuatXu" Type="bit" />
+    <Property Name="DonGia" Type="int" />
+    <Property Name="AnhMH" Type="nvarchar" MaxLength="100" />
+    <Property Name="GhiChu" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="MaLTS" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__TaiSan__MaLTS__3A81B327">
+    <End Role="LoaiTaiSan" Type="Self.LoaiTaiSan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TaiSan" Type="Self.TaiSan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiTaiSan">
+        <PropertyRef Name="MaLTS" />
+      </Principal>
+      <Dependent Role="TaiSan">
+        <PropertyRef Name="MaLTS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="TaiSan_DS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TenTS" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ThiGK2025_64130859ModelStoreContainer">
+    <EntitySet Name="LoaiTaiSan" EntityType="Self.LoaiTaiSan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaiSan" EntityType="Self.TaiSan" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__TaiSan__MaLTS__3A81B327" Association="Self.FK__TaiSan__MaLTS__3A81B327">
+      <End Role="LoaiTaiSan" EntitySet="LoaiTaiSan" />
+      <End Role="TaiSan" EntitySet="TaiSan" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

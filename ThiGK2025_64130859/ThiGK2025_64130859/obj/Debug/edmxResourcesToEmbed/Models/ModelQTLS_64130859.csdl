@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThiGK2025_64130859Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LoaiTaiSan">
+    <Key>
+      <PropertyRef Name="MaLTS" />
+    </Key>
+    <Property Name="MaLTS" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenLTS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="TaiSans" Relationship="Self.FK__TaiSan__MaLTS__3A81B327" FromRole="LoaiTaiSan" ToRole="TaiSan" />
+  </EntityType>
+  <EntityType Name="TaiSan">
+    <Key>
+      <PropertyRef Name="MaTS" />
+    </Key>
+    <Property Name="MaTS" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TenTS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DVT" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="XuatXu" Type="Boolean" />
+    <Property Name="DonGia" Type="Int32" />
+    <Property Name="AnhMH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaLTS" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="LoaiTaiSan" Relationship="Self.FK__TaiSan__MaLTS__3A81B327" FromRole="TaiSan" ToRole="LoaiTaiSan" />
+  </EntityType>
+  <Association Name="FK__TaiSan__MaLTS__3A81B327">
+    <End Role="LoaiTaiSan" Type="Self.LoaiTaiSan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TaiSan" Type="Self.TaiSan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiTaiSan">
+        <PropertyRef Name="MaLTS" />
+      </Principal>
+      <Dependent Role="TaiSan">
+        <PropertyRef Name="MaLTS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ThiGK2025_64130859Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LoaiTaiSans" EntityType="Self.LoaiTaiSan" />
+    <EntitySet Name="TaiSans" EntityType="Self.TaiSan" />
+    <AssociationSet Name="FK__TaiSan__MaLTS__3A81B327" Association="Self.FK__TaiSan__MaLTS__3A81B327">
+      <End Role="LoaiTaiSan" EntitySet="LoaiTaiSans" />
+      <End Role="TaiSan" EntitySet="TaiSans" />
+    </AssociationSet>
+    <FunctionImport Name="TaiSan_DS" ReturnType="Collection(ThiGK2025_64130859Model.TaiSan_DS_Result)">
+      <Parameter Name="TenTS" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="TaiSan_DS_Result">
+    <Property Type="String" Name="MaTS" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenTS" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="DVT" Nullable="false" MaxLength="20" />
+    <Property Type="Boolean" Name="XuatXu" Nullable="true" />
+    <Property Type="Int32" Name="DonGia" Nullable="true" />
+    <Property Type="String" Name="AnhMH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="GhiChu" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="MaLTS" Nullable="false" MaxLength="15" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Đã thêm vào giỏ hàng";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="container text-center mt-5">
+    <h2 class="text-success mb-4">✅ Sản phẩm đã được thêm vào giỏ hàng</h2>
+
+    <div class="d-flex justify-content-center gap-3">
+        <a href="@ViewBag.strURL" class="btn btn-outline-primary btn-sm">
+            ⬅ Tiếp tục mua sắm
+        </a>
+        <a href="@Url.Action("GioHang_64139020", "Giohang_64139020")" class="btn btn-success btn-sm">
+            🛒 Xem giỏ hàng
+        </a>
+    </div>
+</div>

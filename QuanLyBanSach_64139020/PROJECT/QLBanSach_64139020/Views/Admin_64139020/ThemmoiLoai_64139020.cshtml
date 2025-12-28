@@ -1,0 +1,21 @@
+﻿@model QLBanSach_64139020.Models.LOAISACH
+
+@{
+    ViewBag.Title = "Thêm Mới Loại Sách";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("ThemmoiLoai_64139020", "Admin_64139020", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{    
+    <div>
+        <label>Tên loại:</label>
+        @Html.TextBoxFor(m => m.TenLoai, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.TenLoai)
+    </div>
+
+    <br />
+    <input type="submit" value="Thêm" class="btn btn-primary" />
+    @Html.ActionLink("Quay lại", "Loaisach_64139020", null, new { @class = "btn btn-secondary" })
+}

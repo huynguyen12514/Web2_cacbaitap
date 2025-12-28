@@ -1,0 +1,33 @@
+﻿@model List<QLBanSach_64139020.Models.SACH>
+@{
+    ViewBag.Title = "Kết quả tìm kiếm sách";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h3>Kết quả tìm kiếm: "@ViewBag.Keyword"</h3>
+
+@if (ViewBag.TB != null)
+{
+    <p class="text-danger">@ViewBag.TB</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var sach in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="~/images/anhsp/@sach.Anhbia" class="card-img-top" alt="@sach.Tensach" />
+                    <div class="card-body">
+                        <h5 class="card-title">@sach.Tensach</h5>
+                        <p class="card-text">
+                            Giá: @String.Format("{0:#,##0}", sach.Giaban) VNĐ <br />
+                            Số lượng: @sach.Soluongton
+                        </p>
+                        <a href="@Url.Action("Xemsach_64139020", "BookStore_64139020", new { id = sach.Masach })" class="btn btn-primary btn-sm">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,96 @@
+﻿@model QLBanSach_64139020.Models.SACH
+
+@{
+    ViewBag.Title = "Thêm mới sách";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Thêm mới sách</h2>
+
+@using (Html.BeginForm("ThemmoiSach_64139020", "Admin_64139020", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Tensach, "Tên sách:", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.Tensach, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Tensach, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Giaban, "Giá bán:", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.Giaban, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Giaban, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Mota, "Mô tả:", new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.Mota, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Mota, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Anhbia, "Ảnh bìa", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="AnhUpload" accept="image/*" required style="height:30px;" />
+                @if (Model != null && !string.IsNullOrEmpty(Model.Anhbia))
+                {
+                    <img src="@Url.Content("~/images/anhsp/" + Model.Anhbia)" alt="Ảnh bìa" style="height:100px; margin-top: 10px;" />
+                }
+                <div class="text-danger">@ViewBag.Thongbao</div>
+                @Html.ValidationMessageFor(m => m.Anhbia, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Ngaycapnhat, "Ngày cập nhật:", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.Ngaycapnhat, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                @Html.ValidationMessageFor(m => m.Ngaycapnhat, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Soluongton, "Số lượng tồn:", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(m => m.Soluongton, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Soluongton, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.MaLoai, "Loại sách", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("MaLoai", (SelectList)ViewBag.MaLoai, "-- Chọn loại sách --", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.MaLoai, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.MaNXB, "Nhà xuất bản", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("MaNXB", (SelectList)ViewBag.MaNXB, "-- Chọn NXB --", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.MaNXB, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group mt-4">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Thêm sách" class="btn btn-primary rounded-pill px-4" />
+            </div>
+        </div>
+    </div>
+}
+
+<div class="mt-3">
+    @Html.ActionLink("← Trở lại", "Index_64139020", null, new { @class = "btn btn-outline-secondary rounded-pill px-3" })
+</div>

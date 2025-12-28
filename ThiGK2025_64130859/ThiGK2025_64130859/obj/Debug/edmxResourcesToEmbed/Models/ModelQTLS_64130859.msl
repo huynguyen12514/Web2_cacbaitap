@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ThiGK2025_64130859ModelStoreContainer" CdmEntityContainer="ThiGK2025_64130859Entities">
+    <EntitySetMapping Name="LoaiTaiSans">
+      <EntityTypeMapping TypeName="ThiGK2025_64130859Model.LoaiTaiSan">
+        <MappingFragment StoreEntitySet="LoaiTaiSan">
+          <ScalarProperty Name="MaLTS" ColumnName="MaLTS" />
+          <ScalarProperty Name="TenLTS" ColumnName="TenLTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaiSans">
+      <EntityTypeMapping TypeName="ThiGK2025_64130859Model.TaiSan">
+        <MappingFragment StoreEntitySet="TaiSan">
+          <ScalarProperty Name="MaTS" ColumnName="MaTS" />
+          <ScalarProperty Name="TenTS" ColumnName="TenTS" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="XuatXu" ColumnName="XuatXu" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="AnhMH" ColumnName="AnhMH" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaLTS" ColumnName="MaLTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="TaiSan_DS" FunctionName="ThiGK2025_64130859Model.Store.TaiSan_DS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ThiGK2025_64130859Model.TaiSan_DS_Result">
+          <ScalarProperty Name="MaTS" ColumnName="MaTS" />
+          <ScalarProperty Name="TenTS" ColumnName="TenTS" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="XuatXu" ColumnName="XuatXu" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="AnhMH" ColumnName="AnhMH" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaLTS" ColumnName="MaLTS" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

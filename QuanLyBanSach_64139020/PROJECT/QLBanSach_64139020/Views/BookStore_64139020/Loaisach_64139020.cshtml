@@ -1,0 +1,23 @@
+﻿@model IEnumerable<QLBanSach_64139020.Models.LOAISACH>
+
+@{
+    int perColumn = 5; // Số thể loại mỗi cột
+}
+
+<div class="row dropdown-columns">
+    @foreach (var group in Model.Select((loai, i) => new { loai, i }).GroupBy(x => x.i / perColumn))
+    {
+        <div class="col-4">
+            <ul class="list-unstyled">
+                @foreach (var item in group)
+                {
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("SachTheoLoai_64139020", "BookStore_64139020", new { id = item.loai.MaLoai })">
+                            @item.loai.TenLoai
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+</div>

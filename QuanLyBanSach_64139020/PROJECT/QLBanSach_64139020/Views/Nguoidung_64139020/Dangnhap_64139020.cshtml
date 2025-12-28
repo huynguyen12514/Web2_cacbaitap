@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Đăng Nhập";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<link href="~/Content/user-auth.css" rel="stylesheet" />
+
+<div class="login-container">
+    <h2 class="login-title">ĐĂNG NHẬP</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.Thongbao as string))
+    {
+        <div class="alert alert-danger text-center">
+            @ViewBag.Thongbao
+        </div>
+    }
+
+    @using (Html.BeginForm("Dangnhap_64139020", "Nguoidung_64139020", FormMethod.Post))
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="mb-3">
+            <label for="TenDN" class="form-label">Tên đăng nhập<span class="required-star">*</span></label>
+            @Html.TextBox("TenDN", null, new { @class = "form-control", placeholder = "Nhập tên đăng nhập" })
+            <span class="text-danger">@ViewData["Loi1"]</span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Matkhau" class="form-label">Mật khẩu<span class="required-star">*</span></label>
+            @Html.Password("Matkhau", null, new { @class = "form-control", placeholder = "Nhập mật khẩu" })
+            <span class="text-danger">@ViewData["Loi2"]</span>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Đăng Nhập</button>
+
+        <a href="#" class="forgot-link">Quên mật khẩu?</a>
+    }
+</div>

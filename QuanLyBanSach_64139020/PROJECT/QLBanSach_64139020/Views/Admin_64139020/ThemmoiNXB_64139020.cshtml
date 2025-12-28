@@ -1,0 +1,33 @@
+﻿@model QLBanSach_64139020.Models.NHAXUATBAN
+
+@{
+    ViewBag.Title = "Thêm Mới Nhà Xuất Bản";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("ThemmoiNXB_64139020", "Admin_64139020", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{    
+    <div>
+        <label>Tên NXB:</label>
+        @Html.TextBoxFor(m => m.TenNXB, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.TenNXB)
+    </div>
+
+    <div>
+        <label>Địa chỉ:</label>
+        @Html.TextBoxFor(m => m.Diachi, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Diachi)
+    </div>
+
+    <div>
+        <label>Điện thoại:</label>
+        @Html.TextBoxFor(m => m.DienThoai, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.DienThoai)
+    </div>
+
+    <br />
+    <input type="submit" value="Thêm" class="btn btn-primary" />
+    @Html.ActionLink("Quay lại", "NXB_64139020", null, new { @class = "btn btn-secondary" })
+}

@@ -1,0 +1,66 @@
+﻿@using QLBanSach_64139020.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<QLBanSach_64139020.Models.NHAXUATBAN>
+
+@{
+    ViewBag.Title = "NXB_64139020";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+ <h5>QUẢN LÝ NHÀ XUẤT BẢN</h5>
+
+<p>
+    <a href="@Url.Action("ThemmoiNXB_64139020")" class="add-btn">
+        <i class="bi bi-plus-circle"></i> Thêm mới nhà xuất bản
+    </a>
+</p>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Mã số NXB</th>
+                <th>Tên nhà xuất bản</th>
+                <th>Địa chỉ</th>
+                <th>SĐT</th>
+                <th style="width:120px">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaNXB</td>
+                    <td>@item.TenNXB</td>
+                    <td>@item.Diachi</td>
+                    <td>@item.DienThoai</td>
+                    <td>
+                        <div class="action-buttons">
+                            <a href="@Url.Action("SuaNXB_64139020", new { id = item.MaNXB })" class="btn-action btn-edit">
+                                <i class="fas fa-edit"></i> Sửa
+                            </a>
+                            <a href="@Url.Action("XoaNXB_64139020", new { id = item.MaNXB })" class="btn-action btn-delete" onclick="return confirm('Bạn có chắc muốn xóa nhà xuất bản này không?');">
+                                <i class="fas fa-trash-alt"></i> Xóa
+                            </a>
+                        </div>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="Trang">
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("NXB_64139020", new { page = page }), new PagedListRenderOptions
+{
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always,
+    DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+    DisplayLinkToLastPage = PagedListDisplayMode.Never,
+    ClassToApplyToFirstListItemInPager = "first-page",
+    ContainerDivClasses = new[] { "pagination-container" },
+    UlElementClasses = new[] { "pagination" } 
+})
+
+</div>

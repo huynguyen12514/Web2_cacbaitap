@@ -1,0 +1,85 @@
+﻿@model ThiGK2025_64130859.Models.TaiSan
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    string xx = "";
+}
+
+
+<h3>BẠN CÓ CHẮC CHẮN XOÁ THÔNG TIN NÀY?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên tài sản
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenTS)
+        </dd>
+
+        <dt>
+            Đơn vị tính
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DVT)
+        </dd>
+
+        <dt>
+            Xuất xứ
+        </dt>
+
+        <dd>
+            @{if (Model.XuatXu == true)
+                { xx = "Trong nước"; }
+                else
+                { xx = "Ngoại nhập"; }
+            }
+            @xx
+        </dd>
+
+        <dt>
+            Đơn giá
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonGia)
+        </dd>
+
+        <dt>
+            Ảnh minh hoạ
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnhMH)
+        </dd>
+
+        <dt>
+            Ghi chú
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GhiChu)
+        </dd>
+
+        <dt>
+            Loại tài sản
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiTaiSan.TenLTS)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,99 @@
+﻿@using QLBanSach_64139020.Models
+@model List<Giohang_64139020>
+@{
+    ViewBag.Title = "Xác Nhận Đặt Hàng";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container my-5">
+    @if (Model == null || !Model.Any())
+    {
+        <div class="text-center">
+            <img src="~/images/empty-cart.png" alt="Giỏ hàng trống" class="img-fluid" style="max-width: 300px;" />
+            <h3 class="text-danger mt-3">Giỏ hàng của bạn đang trống!</h3>
+            <a href="@Url.Action("Index_64139020", "BookStore_64139020")" class="btn btn-primary mt-3">Quay lại mua sắm</a>
+        </div>
+    }
+    else
+    {
+        <h2 class="text-center text-primary mb-4">Thông Tin Sản Phẩm</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Tên Sách</th>
+                        <th scope="col">Ảnh Bìa</th>
+                        <th scope="col">Số Lượng</th>
+                        <th scope="col">Đơn Giá</th>
+                        <th scope="col">Thành Tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.sTensach</td>
+                            <td><img src="~/images/anhsp/@item.sAnhbia" class="img-thumbnail" style="width: 100px; height: 150px;" /></td>
+                            <td>
+                                @using (Html.BeginForm("CapnhatGiohang_64139020", "Giohang_64139020", new { iMaSP = item.iMasach }, FormMethod.Post))
+                                {
+                                    <input type="number" min="1" name="txtSoluong" value="@item.iSoluong" class="form-control text-center" style="width: 80px; display: inline-block;" />
+                                    <button type="submit" class="btn btn-primary btn-sm mt-1">Cập Nhật</button>
+                                }
+                            </td>
+                            <td>@String.Format("{0:#,##0}", item.dDonggia) ₫</td>
+                            <td>@String.Format("{0:#,##0}", item.dThanhtien) ₫</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="text-end mb-4">
+                @Html.ActionLink("⬅ Trở về Giỏ Hàng", "GioHang_64139020", "Giohang_64139020", null, new { @class = "btn btn-outline-secondary" })
+            </div>
+        </div>
+
+        <h2 class="text-center text-success mb-4">Thông Tin Đặt Hàng</h2>
+            var kh = (KHACHHANG)Session["Taikhoan"];
+
+        using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label fw-bold">Họ tên khách hàng:</label>
+                <div class="col-sm-9 pt-2">@kh.HoTen</div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label fw-bold">Địa chỉ:</label>
+                <div class="col-sm-9 pt-2">@kh.DiachiKH</div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label fw-bold">Điện thoại:</label>
+                <div class="col-sm-9 pt-2">@kh.DienthoaiKH</div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label fw-bold">Ngày đặt:</label>
+                <div class="col-sm-9 pt-2">@DateTime.Now.ToString("dd/MM/yyyy")</div>
+            </div>
+
+            <div class="row mb-4">
+                <label class="col-sm-3 col-form-label fw-bold">Ngày giao hàng:</label>
+                <div class="col-sm-9 pt-2">
+                    <input type="hidden" name="Ngaygiao" value="@DateTime.Now.AddDays(7).ToString("yyyy-MM-dd")" />
+                    <strong>@DateTime.Now.AddDays(7).ToString("dd/MM/yyyy")</strong>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-success btn-lg px-5">
+                    ✅ Đồng ý đặt hàng
+                </button>
+            </div>
+        }
+    }
+</div>

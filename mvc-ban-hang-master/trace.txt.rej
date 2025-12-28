@@ -1,0 +1,6 @@
+diff a/trace.txt b/trace.txt	(rejected hunks)
+@@ -0,3 +0 @@
+-hello githubhello githubhello github<<<<<<< HEAD
+-hello github
+-=======
++change only

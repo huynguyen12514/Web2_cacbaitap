@@ -1,0 +1,64 @@
+﻿@model QLBanSach_64139020.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Chitietnguoidung_64139020";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h5>THÔNG TIN KHÁCH HÀNG</h5>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên người dùng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Taikhoan)
+        </dd>
+
+        <dt>
+            Họ tên khách hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoTen)
+        </dd>
+
+        <dt>
+            Ngày sinh
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaysinh)
+        </dd>
+
+        <dt>
+            Địa chỉ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiachiKH)
+        </dd>
+
+        <dt>
+            Email:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            Điện thoại:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DienthoaiKH)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("← Trở lại", "Donhang_64139020", null, new { @class = "btn btn-outline-secondary rounded-pill px-3" })
+</p>

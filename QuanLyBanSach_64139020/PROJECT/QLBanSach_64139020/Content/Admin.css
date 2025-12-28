@@ -1,0 +1,290 @@
+﻿/* Sidebar background and layout */
+.sidebar {
+    background-color: #FFF2EB;
+    min-height: 100vh;
+    width: 250px !important;
+    min-width: 250px !important;
+    transition: none !important;
+    color: #FFD6BA;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Logo spacing */
+.sidebar img {
+    max-width: 100%;
+    height: auto;
+}
+
+    /* Nav links */
+    .sidebar .nav-link {
+        color: #27548A;
+        padding: 10px 15px;
+        border-radius: 6px;
+        transition: all 0.2s ease-in-out;
+        font-weight: 500;
+    }
+
+        /* Icon spacing */
+        .sidebar .nav-link i {
+            color: #27548A;
+            font-size: 1.2rem;
+            vertical-align: middle;
+        }
+        .sidebar .nav-link a {
+            color: #27548A;
+        }
+
+        /* Hover effect */
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            background-color: #495057;
+            color: #fff;
+            text-decoration: none;
+        }
+
+    /* Margin between nav items */
+    .sidebar .nav-item {
+        margin-bottom: 0.5rem;
+    }
+
+        /* Support section spacing */
+        .sidebar .nav-item.mt-4 {
+            margin-top: 2rem !important;
+        }
+
+/* Responsive: hide sidebar on small screens if needed */
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+    }
+}
+
+
+/* Top Header */
+header {
+    background-color: #FFE1E0;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 1.2rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.textAdmin {
+    color: #27548A;
+    font-weight: bold;
+}
+.login-button {
+    background-color: #FFF2EB;
+    color: #27548A;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-weight: 500;
+}
+
+    .login-button:hover {
+        background-color: #ababab;
+    }
+
+/* Footer Styling */
+footer {
+    background-color: #FFE1E0 !important;
+    padding: 40px 0;
+    font-size: 1rem;
+    color: black;
+    box-shadow: 2px 0 5px rgba(0, 0, 0.2, 0.2);
+}
+
+    footer h5 {
+        margin-bottom: 15px;
+        color: #09386d;
+        font-weight: bold;
+    }
+
+    footer ul li {
+        margin-bottom: 10px;
+        color: #27548A;
+    }
+
+    footer a {
+        color: #27548A;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    footer small {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: black;
+    }
+
+/* Responsive Sidebar Collapse */
+@media (max-width: 768px) {
+    nav.bg-dark {
+        position: fixed;
+        z-index: 1000;
+        height: 100vh;
+        left: -100%;
+        top: 0;
+        width: 240px;
+        transition: all 0.3s ease;
+    }
+
+        nav.bg-dark.active {
+            left: 0;
+        }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        display: none;
+    }
+
+        .overlay.active {
+            display: block;
+        }
+
+    .menu-toggle {
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+
+/*.menu-toggle {
+    display: none;
+}
+*/
+/* Typography */
+body {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.table-container {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px; /* khoảng cách giữa các nút */
+}
+
+.btn-action {
+    display: inline-block;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    min-width: 70px;
+    text-align: center;
+}
+
+.btn-edit {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+
+.add-btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .add-btn:hover {
+        background-color: #0056b3;
+    }
+
+.Trang {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0;
+    border-radius: 4px;
+}
+
+    .pagination li {
+        display: inline;
+    }
+
+        .pagination li a, .pagination li span {
+            position: relative;
+            float: left;
+            padding: 6px 12px;
+            margin-left: -1px;
+            line-height: 1.42857143;
+            color: #007bff;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .pagination li.active span {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }

@@ -1,0 +1,23 @@
+﻿@model IEnumerable<QLBanSach_64139020.Models.TACGIA>
+
+@{
+    int perColumn = 5;
+}
+
+<div class="row dropdown-columns">
+    @foreach (var group in Model.Select((tg, i) => new { tg, i }).GroupBy(x => x.i / perColumn))
+    {
+        <div class="col-4">
+            <ul class="list-unstyled">
+                @foreach (var item in group)
+                {
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("SachTheoTacgia_64139020", "BookStore_64139020", new { id = item.tg.MaTG })">
+                            @item.tg.TenTG
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+</div>

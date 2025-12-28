@@ -1,0 +1,228 @@
+﻿
+@{
+    @model GroupProduct
+    ViewBag.Title = Model.GroupName;
+}
+
+<div class="breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-inner">
+            <ul class="list-inline list-unstyled">
+                <li>@Html.ActionLink("Trang chủ","Index","Home")</li>
+                @ShowBreadcrumb(Model)
+            </ul>
+        </div>
+        <!-- /.breadcrumb-inner -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.breadcrumb -->
+<div class="body-content">
+    <div class='container'>
+        <div class='row outer-bottom-sm'>
+            <div class='col-md-3 sidebar'>
+                <div class="sidebar-module-container">
+                    <h3 class="section-title">@Model.GroupName</h3>
+                    <div class="sidebar-filter">
+                        <!-- ============================================== SIDEBAR CATEGORY ============================================== -->
+                        @Html.Action("ListGroupProduct", new { id = Model.GroupID})
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== SIDEBAR CATEGORY : END ============================================== -->
+                        <!-- ============================================== PRICE SILDER============================================== -->
+                        <div class="sidebar-widget outer-bottom-xs wow fadeInUp">
+                            <div class="widget-header">
+                                <h4 class="widget-title">Lọc theo giá</h4>
+                            </div>
+                            <div class="sidebar-widget-body">
+                                <ul class="list">
+                                    <li><a href="?@Url.QueryString("range_price","0,10000000")">0&nbsp;₫ - 10.000.000&nbsp;₫ </a></li>
+                                    <li><a href="?@Url.QueryString("range_price", "10000000,20000000")">10.000.000&nbsp;₫ - 20.000.000&nbsp;₫ </a></li>
+                                    <li><a href="?@Url.QueryString("range_price", "20000000,30000000")">20.000.000&nbsp;₫ - 30.000.000&nbsp;₫ </a></li>
+                                    <li><a href="?@Url.QueryString("range_price", "30000000,40000000")">30.000.000&nbsp;₫ - 40.000.000&nbsp;₫ </a></li>
+                                    <li><a href="?@Url.QueryString("range_price", "40000000,50000000")">40.000.000&nbsp;₫ - 50.000.000&nbsp;₫ </a></li>
+                                </ul>
+                                <div>Hoặc chọn giá khác</div>
+                                <div class="price-range-holder m-t-10">
+                                    <span class="min-max">
+                                        <span class="pull-left">0đ</span>
+                                        <span class="pull-right">50.000.000đ</span>
+                                    </span>
+                                    <input type="hidden" id="amount" style="border:0; color:#666666; font-weight:bold;text-align:center;">
+                                    @if (Request["range_price"] != null && !String.IsNullOrEmpty(Request["range_price"]))
+                                    {
+                                        <input type="text" class="price-slider" data-slider-value="[@Request["range_price"]]">
+                                    }
+                                    else
+                                    {
+                                        <input type="text" class="price-slider">
+                                    }
+                                    
+
+                                </div>
+                                <!-- /.price-range-holder -->
+                                <a href="#" id="btn_price_filter" class="lnk btn btn-primary">Lọc</a>
+                                <a href="#" id="btn_cancel_price_filter" class="lnk btn btn-danger">Hủy lọc</a>
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== PRICE SILDER : END ============================================== -->
+                       <!-- ============================================== COLOR============================================== -->
+                        <div class="sidebar-widget wow fadeInUp outer-bottom-xs ">
+                            <div class="widget-header">
+                                <h4 class="widget-title">Lọc theo màu</h4>
+                            </div>
+                            <div class="sidebar-widget-body m-t-10">
+                                <ul class="list list-color">
+                                    @foreach (Color color in (IEnumerable<Color>)ViewData["ListColor"])
+                                    {
+                                        String colorID = HttpContext.Current.Request.QueryString["color"];
+                                        String active = "";
+                                        if(color.ColorID.ToString().Equals(colorID))
+                                        {
+                                            active = "active";
+                                        }
+                                        <li><a class="@active" data-toggle="tooltip" title="Màu @color.ColorName" style="background:#@color.HexCode" href="?@Url.QueryString("color",@color.ColorID.ToString())"></a></li>
+                                    }
+                                </ul>
+                                <div class="clearfix"></div>
+                                <a href="#" id="btn_cancel_color_filter" class="lnk btn btn-danger btn-xs">Hủy lọc</a>
+                            </div>
+                            <!-- /.sidebar-widget-body -->
+                        </div>
+                        <!-- /.sidebar-widget -->
+                        <!-- ============================================== COLOR: END ============================================== -->
+                        </div>
+                    <!-- /.sidebar-filter -->
+                </div>
+                <!-- /.sidebar-module-container -->
+            </div>
+            <!-- /.sidebar -->
+            @Html.Action("ShowProductInCategory", new { id = Model.GroupID })
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.body-content -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" data-backdrop="false" role="dialog">
+    <div class="modal-dialog" style="width:300px;">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Chọn màu sắc</h4>
+            </div>
+            <div class="modal-body" style="text-align:center">
+                <select class="form-control" id="list_color"></select>
+            </div>
+            <div class="modal-footer">
+                <button id="btn_add" type="button" class="btn btn-success" data-dismiss="modal">Thêm vào giỏ</button>
+                <button id="btn_cancel" type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+@helper ShowBreadcrumb(GroupProduct group, int currGroupID = -1)
+{
+    if (currGroupID == -1)
+    {
+        currGroupID = group.GroupID;
+    }
+    
+    if (group.ParentGroupID != null)
+    {
+        @ShowBreadcrumb(group.GroupProduct1, currGroupID)
+    }
+    if (group.GroupID == currGroupID)
+    {
+        <li class="active">@group.GroupName</li>
+    }
+    else
+    {
+        <li><a href="@Url.Action("Detail", new { id = group.GroupID })">@group.GroupName</a></li>
+    }
+}
+
+@section masterjs
+{
+    <script type="text/javascript">
+       
+        $('.price-slider').slider({
+            min: 0,
+            max: 50000000,
+            step: 1000000,
+            range: true,
+            handle: "square",
+            formatter: function (value) {
+                return 'Từ ' + addThousandsSeparator(value[0]) + ' đến ' + addThousandsSeparator(value[1]);
+            }
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            $("#btn_price_filter").click(function () {
+                url = replaceParam('range_price', $(".price-slider").val());
+                window.location.href = url;
+                return false;
+            });
+            $("#btn_cancel_price_filter").click(function () {
+                url = replaceParam('range_price', '');
+                window.location.href = url;
+                return false;
+            });
+            $("#btn_cancel_color_filter").click(function () {
+                url = replaceParam('color', '');
+                window.location.href = url;
+                return false;
+            });
+        }); 
+        function replaceParam(key, value) {
+            var pathname = window.location.pathname;
+            var params = toParams(window.location.search);
+            params[key] = value;
+
+            return pathname + "?" + jQuery.param(params)
+        }
+
+        function toParams(searchUrl) {
+            var result = {}
+            if (searchUrl == '')
+                return result;
+
+            var queryString = searchUrl.substr(1);
+
+            var params = queryString.split("&");
+
+            jQuery.each(params, function (index, param) {
+                var keyPair = param.split("=");
+
+                var key = keyPair[0];
+                var value = keyPair[1];
+
+                if (result[key] == undefined)
+                    result[key] = value
+                else {
+
+                    if (result[key] instanceof Array) //current var is an array just push another to it
+                        result[key].push(value)
+                    else { //duplicate var, then it must store as an array
+                        result[key] = [result[key]]
+                        result[key].push(value)
+                    }
+                }
+            })
+
+            return result;
+
+        }
+    </script>
+}

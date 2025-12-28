@@ -1,0 +1,70 @@
+﻿@using QLBanSach_64139020.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<QLBanSach_64139020.Models.DONDATHANG>
+
+@{
+    ViewBag.Title = "QUẢN LÝ ĐƠN HÀNG";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h5>@ViewBag.Title</h5>
+
+<table>
+    <tr>
+        <th>Mã đơn hàng</th>
+        <th>Thanh toán</th>
+        <th>Trạng thái giao hàng</th>
+        <th>Ngày đặt</th>
+        <th>Ngày giao</th>
+        <th>Người đặt</th>
+        <th style="width:100px">Thao tác</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MaDonHang</td>
+            <td>
+                @if (item.Dathanhtoan == true)
+                {
+                    <span class="font-green">Đã thanh toán</span>
+                }
+                else
+                {
+                    <span class="font-red">Chưa thanh toán</span>
+                }
+            </td>
+            <td>
+                @if (item.Tinhtranggiaohang == true)
+                {
+                    <span class="font-green">Đã giao hàng</span>
+                }
+                else
+                {
+                    <span class="font-red">Chưa giao hàng</span>
+                }
+            </td>
+            <td>@(item.Ngaydat.HasValue ? item.Ngaydat.Value.ToString("dd/MM/yyyy") : "-")</td>
+            <td>@(item.Ngaygiao.HasValue ? item.Ngaygiao.Value.ToString("dd/MM/yyyy") : "-")</td>
+
+            <td>
+                @Html.ActionLink(item.KHACHHANG.Taikhoan, "Chitietnguoidung_64139020", new { id = item.MaKH })
+            </td>
+            <td>
+                <div class="action-buttons">
+                    <a href="@Url.Action("SuaDonHang_64139020", new { id = item.MaDonHang })" class="btn-action btn-edit">
+                        <i class="fas fa-edit"></i> Sửa
+                    </a>
+                    <a href="@Url.Action("XoaDonHang_64139020", new { id = item.MaDonHang })" class="btn-action btn-delete" onclick="return confirm('Bạn có chắc muốn xóa đơn hàng này không?');">
+                        <i class="fas fa-trash-alt"></i> Xóa
+                    </a>
+                </div>
+            </td>
+        </tr>
+    }
+</table>
+
+<div class="Trang">
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("DonHang_64139020", new { page = page }))
+</div>

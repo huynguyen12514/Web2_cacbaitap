@@ -1,0 +1,47 @@
+﻿/* Phân trang hiển thị theo hàng ngang */
+.Trang li {
+    display: inline-block;
+    letter-spacing: 10px;
+}
+
+/* Căn giữa nội dung phân trang */
+.Trang {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+    /* Định dạng trang hiện tại */
+    .Trang .active {
+        font-weight: bold;
+        color: red;
+    }
+.single-product {
+    border: 1px solid #eaeaea;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    .single-product:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+.product-img img {
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease;
+}
+
+.product-action a {
+    margin: 0 5px;
+    font-size: 14px;
+    color: #333;
+    transition: 0.2s ease;
+}
+
+    .product-action a:hover {
+        color: #ff6600;
+    }

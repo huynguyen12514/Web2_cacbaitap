@@ -1,0 +1,25 @@
+﻿@model QLBanSach_64139020.Models.LOAISACH
+
+@{
+    ViewBag.Title = "Xóa Loại Sách";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>Bạn có chắc muốn xóa loại sách này không?</h3>
+
+<div>
+    <h4>Thông tin loại sách</h4>
+    <p>Mã loại: @Model.MaLoai</p>
+    <p>Tên loại: @Model.TenLoai</p>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Xóa" class="btn btn-default" /> |
+        @Html.ActionLink("Sửa", "SuaLoai_64139020", new { id = Model.MaLoai }) |
+        @Html.ActionLink("Quay lại", "LoaiSach_64139020")
+    </div>
+}

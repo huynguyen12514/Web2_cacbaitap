@@ -1,0 +1,37 @@
+﻿@model QLBanSach_64139020.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "Thông Tin Tài Khoản";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<style>
+    .account-info-container {
+        max-width: 600px;
+        margin: 50px auto;
+    }
+
+    .card {
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+    .font-weight-bold {
+        font-weight: 600;
+    }
+</style>
+<div class="account-info-container">
+    <h2 class="text-center mb-4">THÔNG TIN TÀI KHOẢN</h2>
+
+    <div class="card p-4" style="max-width: 600px; margin: 0 auto;">
+        <p><strong>Họ tên:</strong> @Model.HoTen</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Địa chỉ:</strong> @Model.DiachiKH</p>
+        <p><strong>Điện thoại:</strong> @Model.DienthoaiKH</p>
+        <p><strong>Ngày sinh:</strong> @(Model.Ngaysinh.HasValue ? Model.Ngaysinh.Value.ToString("dd/MM/yyyy") : "")</p>
+    </div>
+    <div class="text-end mt-4">
+        <a href="@Url.Action("Index_64139020", "BookStore_64139020")" class="btn btn-secondary">Quay về trang chủ</a>
+    </div>
+</div>
+

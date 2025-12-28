@@ -1,0 +1,518 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|d:\\visual studio\\visualstudio2022\\qlnv\\qlnv\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|d:\\visual studio\\visualstudio2022\\qlnv\\qlnv\\views\\nhanviens\\printlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\printlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\nhanviens\\timkiemnc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\timkiemnc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\quantris\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\quantris\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\phongbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\phongbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\gioithieu\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\gioithieu\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\content\\styleadmin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\content\\styleadmin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\models\\modelqlnv.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\models\\modelqlnv.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\controllers\\quantriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\quantriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\gioithieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\phongbans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\phongbans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|D:\\Visual Studio\\VisualStudio2022\\QLNV\\qlnv\\project_readme.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\project_readme.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "QLNV\\Models\\NhanVien.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Models\\NhanVien.cs",
+              "RelativeToolTip": "QLNV\\Models\\NhanVien.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:21:42.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GioiThieu.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\GioiThieu\\GioiThieu.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\GioiThieu\\GioiThieu.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\GioiThieu\\GioiThieu.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\GioiThieu\\GioiThieu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T11:49:58.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TimKiem.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\TimKiem.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\TimKiem.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\TimKiem.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\TimKiem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T12:19:44.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TimKiemNC.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T12:19:59.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\PhongBans\\Create.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Create.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\PhongBans\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:14:11.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NhanViensController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\NhanViensController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\NhanViensController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\NhanViensController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\NhanViensController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T02:18:29.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\PhongBans\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Index.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\PhongBans\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:14:37.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrintList.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\PrintList.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\PrintList.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\PrintList.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\PrintList.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T02:06:44.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\QuanTris\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\QuanTris\\Create.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\QuanTris\\Create.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\QuanTris\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T02:30:12.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "styleAdmin.css",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Content\\styleAdmin.css",
+              "RelativeDocumentMoniker": "QLNV\\Content\\styleAdmin.css",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Content\\styleAdmin.css",
+              "RelativeToolTip": "QLNV\\Content\\styleAdmin.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvycAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-20T01:32:01.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ModelQLNV.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Models\\ModelQLNV.edmx",
+              "RelativeDocumentMoniker": "QLNV\\Models\\ModelQLNV.edmx",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Models\\ModelQLNV.edmx [Diagram1]*",
+              "RelativeToolTip": "QLNV\\Models\\ModelQLNV.edmx [Diagram1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-23T23:54:54.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T08:30:21.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-24T08:30:23.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuanTrisController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\QuanTrisController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\QuanTrisController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\QuanTrisController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\QuanTrisController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T23:55:50.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Web.config",
+              "RelativeDocumentMoniker": "QLNV\\Web.config",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Web.config",
+              "RelativeToolTip": "QLNV\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-13T02:21:38.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T23:56:18.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T01:28:29.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\Create.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Create.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T02:33:15.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PhongBansController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\PhongBansController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\PhongBansController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\PhongBansController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\PhongBansController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T02:47:24.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Web.config",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Web.config",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Web.config",
+              "RelativeToolTip": "QLNV\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T01:34:43.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GioiThieuController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\GioiThieuController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\GioiThieuController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\GioiThieuController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\GioiThieuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:49:52.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\Edit.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\Edit.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T13:02:57.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Index.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T02:18:29.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\Details.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\NhanViens\\Details.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\Details.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T11:49:48.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T12:21:36.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\ManageController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:10:58.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:35:05.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\PhongBans\\Edit.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\PhongBans\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:14:13.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\PhongBans\\Delete.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Delete.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\PhongBans\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:14:17.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\PhongBans\\Details.cshtml",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Views\\PhongBans\\Details.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\PhongBans\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T02:14:08.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Project_Readme.html",
+              "DocumentMoniker": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Project_Readme.html",
+              "RelativeDocumentMoniker": "QLNV\\Project_Readme.html",
+              "ToolTip": "D:\\Visual Studio\\VisualStudio2022\\QLNV\\QLNV\\Project_Readme.html",
+              "RelativeToolTip": "QLNV\\Project_Readme.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-20T01:24:32.552Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

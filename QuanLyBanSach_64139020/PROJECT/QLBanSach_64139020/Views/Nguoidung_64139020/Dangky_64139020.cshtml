@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Đăng ký thành viên";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="container mt-5" style="max-width: 600px;">
+    <h2 class="text-center mb-4">ĐĂNG KÝ THÀNH VIÊN</h2>
+
+    <div class="alert alert-danger" role="alert" style="display:@(ViewData.ModelState.IsValid ? "none" : "block")">
+        * Vui lòng điền đủ thông tin đăng ký
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger mb-3" })
+
+        <div class="mb-3">
+            <label class="form-label">Họ tên khách hàng<span class="required-star">*</span></label>
+            @Html.TextBox("HotenKH", null, new { @class = "form-control", placeholder = "Nhập họ tên" })
+            <span class="text-danger">@ViewData["Loi1"]</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tên đăng nhập:<span class="required-star">*</span></label>            
+            @Html.TextBox("TenDN", null, new { @class = "form-control", placeholder = "Nhập tên đăng nhập" })
+            <span class="text-danger">@ViewData["Loi2"]</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Mật khẩu:<span class="required-star">*</span></label>
+            @Html.Password("Matkhau", null, new { @class = "form-control", placeholder = "Nhập mật khẩu" })
+            <span class="text-danger">@ViewData["Loi3"]</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Nhập lại mật khẩu:<span class="required-star">*</span></label>
+            @Html.Password("Matkhaunhaplai", null, new { @class = "form-control", placeholder = "Nhập lại mật khẩu" })
+            <span class="text-danger">@ViewData["Loi4"]</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email:<span class="required-star">*</span></label>
+            @Html.TextBox("Email", null, new { @class = "form-control", placeholder = "Nhập email" })
+            <span class="text-danger">@ViewData["Loi5"]</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Địa chỉ:<span class="required-star">*</span></label>
+            @Html.TextBox("Diachi", null, new { @class = "form-control", placeholder = "Nhập địa chỉ" })
+            <span class="text-danger">@ViewData["Loi6"]</span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Số điện thoại:<span class="required-star">*</span></label>
+            @Html.TextBox("Dienthoai", null, new { @class = "form-control", placeholder = "Nhập số điện thoại" })
+            <span class="text-danger">@ViewData["Loi7"]</span>
+        </div>
+
+        <div class="mb-4">
+            <label class="form-label">Nhập ngày sinh:<span class="required-star">*</span></label>            <input type="date" name="Ngaysinh" class="form-control" />
+        </div>
+
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary btn-lg">Đăng Ký</button>
+        </div>
+    }
+</div>
